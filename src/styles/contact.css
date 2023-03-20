@@ -1,0 +1,62 @@
+#contact{
+
+width: 100%;
+    min-height: 90vh;
+
+
+
+}
+
+ #contact section{
+    width: 80%;
+    margin: auto;
+    height:90%;
+    /* background-color: #292b46; */
+
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:12rem 13.33vmax;
+    /* justify-content: center; */
+    height: 100%;
+    /* color: white; */
+
+}
+
+section form h2{
+    text-align: center;
+    font: 100 2.7rem "Roboto";
+    letter-spacing: 5px ;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+#contact section form input
+{
+    padding: 0.8rem;
+    width: 100%;
+    outline: none;
+    font:400 0.9rem "Roboto";
+    margin: 1rem;
+    border: none;
+}
+
+
+#contact section form button{
+    padding: 0.8rem;
+    width: 100%;
+    outline: none;
+    font:400 0.9rem "Roboto";
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #f9523f;
+    font: 600 1rem "Roboto";
+    text-transform: uppercase;
+    margin: 3rem;
+}
+
+#contact section form button:hover{
+    background-color: #f26440;
+}

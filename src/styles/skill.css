@@ -1,0 +1,15 @@
+ 
+  
+  .progress{
+    display: flex;
+    gap: 5rem;
+  }
+
+  .progress .name{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .progress h2{
+    text-align: justify;
+  }

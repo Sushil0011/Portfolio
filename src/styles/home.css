@@ -1,0 +1,141 @@
+#home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+}
+#home h1{
+    font: 900 4rem "Roboto";
+}
+ section{
+    width: 50%;
+}
+/* .left-container{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 200px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+.section1{
+    padding-left: 13.33vmax;
+
+}
+#home{
+    border-top: 1px solid #16161689;
+    height: 100%;
+    padding-top: 8rem;
+}
+
+.typewriterpara{
+    margin: 20px 0;
+    height: 20px;
+    letter-spacing: 5px;
+    font: 700 2rem "Roboto";
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    width: 70%;
+    gap: 4rem;
+
+}
+.section1 .name{
+    color: #FE614E;
+}
+
+.links a:first-of-type{
+background-color:#FE614E ;
+color:white ;
+padding: 0.75rem 2.5rem;
+/* border-radius: 12px; */
+
+}
+.links a:first-of-type:hover{
+    background-color:#df4f2a ;
+}
+
+.links a:last-of-type{
+font: 600 1.2rem "Roboto";
+color:#292b46 ;
+margin-left: 20px;
+/* display: flex; */
+/* align-items: center; */
+}
+.links a:last-of-type:hover{
+    /* background-color: #FE614E; */
+    cursor: pointer;
+}
+
+
+
+
+
+.aside{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+article{
+    margin: 2rem 0;
+    width: 10rem;
+    color: rgb(8, 8, 9);
+}
+
+
+article p{
+    /* margin-left: 20px; */
+    font: 800 2rem "Roboto";
+}
+article span{
+    font: 600 1rem "Roboto" ;
+}
+section:last-of-type{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    overflow-x: hidden;
+    /* background-color: white; */
+
+}
+section:last-of-type img{
+width: 30vmax;
+height: 30vmax;
+object-fit: cover;
+border-radius: 50%;
+border: none;
+outline: none;
+/* background-color:#ecb2b2 ; */
+}
+
+ .arrow{
+position: absolute;
+font-size: 2rem;
+color: black;
+left: 50%;
+bottom: 5%;
+transform: translateX(-50%);
+animation: animatearrow 0.7s infinite linear alternate;
+}
+@keyframes animatearrow {
+    to{
+        transform: translate(-50%,-20%);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

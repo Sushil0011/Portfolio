@@ -1,0 +1,68 @@
+footer{
+    min-height: 100px;
+    background-color:#161616 ;
+    color: #fff;
+    padding: 6rem 0;
+    padding-left:13.33vmax ;
+    display: grid;
+    grid-template-columns: 10fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+footer .footer{
+    width: 100%;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+
+}
+
+
+.footer img{
+width: 100px;
+height: 100px;
+object-fit:cover;
+border-radius: 50%;
+
+}
+
+.footer h2{
+    margin: 1rem;
+}
+.footer p{
+    font: 500 1.2rem "Roboto";
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+ footer aside article{
+margin-top: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer  aside article svg{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0.5rem;
+
+}
+footer svg:hover{
+    color: #df4f2a;
+}
+
+footer .tohome{
+    width: 50px;
+    height: 50px;
+    color: #df4f2a;
+font-size: 2rem;
+display: grid;
+border-radius: 50%;
+background-color: #fff;
+place-items: center;
+
+
+}
+
+

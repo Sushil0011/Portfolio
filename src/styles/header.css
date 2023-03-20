@@ -1,0 +1,170 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:#FDD5DD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13.33vmax;
+    position: sticky;
+    top: 0%;
+    z-index: 60;
+    /* filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6)); */
+
+}
+
+
+nav .logo img{
+    width:6vmax;
+    height: 6vmax;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    animation: animatelogo 2.5s infinite linear alternate;
+}
+@keyframes animatelogo {
+    to{
+        transform: translateX(-20%);
+    }
+    
+}
+
+
+
+nav h2{
+    font-size: 2rem;
+    color: #ec9f8c;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+nav div a{
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+}
+nav div a:hover{
+    color: #f26440;
+}
+.mail button{
+        border: 1px solid #16161696;
+        border-radius: 10px;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: 500;
+        transition: all 0.3s;
+
+}
+
+
+
+
+
+
+.mail button:hover{
+    background-color: #161616;
+    color:#fff ;
+}
+
+ .menubtn{
+    display: none;
+border: none;
+width: 40px;
+height: 40px;
+position: fixed;
+top: 2rem;
+right: 2rem;
+z-index: 150;
+background-color: transparent;
+color: #f26440;
+font-size: 2rem;
+
+}
+
+ .menubtn:hover{
+    color: #93270c;
+}
+
+
+
+.navphone{
+    transition: all 0.5s;
+    transform: translateY(-200%);
+    width: 100%;
+    height: 100vh;
+    padding: 14vmax 4vmax;
+    position: fixed;
+    background-color: #120f34;
+    color: #fff;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+.navphone .logo img{
+    width:6vmax;
+    height: 6vmax;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+.navphone .menu{
+    padding: 4vmax 4vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.navphone .menu a{
+    color: #f9eded;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+    font: 500 1.2rem "Roboto";
+
+}
+.navphone .menu a:hover{
+    color: #dd350b;
+}
+
+
+.navphone .mailbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.navphone  a button{
+border: 1px solid black ;
+padding: 0.5rem 2rem;
+background-color: #ec9f8c;
+cursor: pointer;
+color: #161616;
+border-radius: 0%;
+letter-spacing: 1px;
+font-weight: 500;
+transition: all 0.3s;
+margin: auto;
+
+}
+.navphone a button:hover{
+    background-color: #f26440;
+    color: white;
+}
+.navphonecomes{
+    transform: translateY(0);
+}

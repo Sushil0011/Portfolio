@@ -1,0 +1,77 @@
+#work{
+    width: 100%;
+    height: 100vh;
+    padding: 8rem 13.33vmax ;
+
+}
+#work h2{
+font: 700 2.5rem "Robot";
+width: fit-content;
+border-bottom: 2px solid rgb(42, 41, 41);
+padding: 0.5rem;
+text-transform: uppercase;
+margin: auto;
+
+}
+#work .project_con{
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: #292b46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#work article{
+    width: 70%;
+    height: 30vmax;
+
+}
+
+#work .projects{
+    overflow-y: auto;
+    height: 30vmax;
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    box-shadow: 0 0 20px 5px #fef2f2;
+}
+#work .projects img{
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+#work .projects aside{
+width: 60%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#work .projects aside p{
+    letter-spacing: 3px;
+    line-height: 180%;
+    margin: 2rem;
+
+}
+#work .projects aside a{
+    background-color:#FE614E;
+    padding: 0.7rem 2rem;
+    margin: 2rem;
+    color:white;
+
+
+}
+#work .projects aside a:hover{
+    background-color: #f26440;
+}
+
+
+                                
