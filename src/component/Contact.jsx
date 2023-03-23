@@ -5,7 +5,6 @@ import toast from 'react-hot-toast'
 
 import {addDoc,collection} from 'firebase/firestore'
 import {db} from '../firebase'
-import { async } from '@firebase/util';
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

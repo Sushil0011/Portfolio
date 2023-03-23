@@ -1,5 +1,4 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Header, {Mininav} from './component/Header';
 import Home from './component/Home';
 import Work from './component/Work';

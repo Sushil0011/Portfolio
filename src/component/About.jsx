@@ -1,7 +1,5 @@
 import React from 'react'
 import '../styles/about.css'
-import { motion } from "framer-motion"
-import { AiFillIeCircle } from 'react-icons/ai'
 import AboutSkill from './AboutSkill'
 
 const About = () => {
@@ -50,8 +48,5 @@ const About = () => {
     )
 }
 
-const Skill_bar = () => {
-
-}
 
 export default About

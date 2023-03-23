@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/footer.css';
 import Image from '../assests/foot3.jpg';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineAccountBook, AiOutlineArrowUp } from 'react-icons/ai';
-import {Link } from 'react-router-dom';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineArrowUp } from 'react-icons/ai';
 const Footer = () => {
     return (
         <footer>
