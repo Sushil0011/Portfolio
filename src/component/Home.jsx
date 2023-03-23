@@ -69,7 +69,7 @@ const Home = () => {
                     <div className='aside'>
                         <article>
                             <p>
-                                3
+                                5
                             </p>
                             <span>Projects Done</span>
 
