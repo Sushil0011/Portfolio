@@ -290,13 +290,11 @@ footer .tohome svg{
 
 
 
-@media screen and   (max-width:400px){
+@media screen and   (max-width:450px){
     #about {
 color: black;
 padding: 10px 0;
 background-color: #292b46;
-border-top-left-radius: 30px;
-border-bottom-right-radius: 30px;
     }
 
     #about .about_container{
