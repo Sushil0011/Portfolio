@@ -37,12 +37,11 @@ const About = () => {
                     <AboutSkill skill="Html" counter={85} />
 
                     <AboutSkill skill="Css" counter={80} />
-                    <AboutSkill skill="Javascript" counter={65} />
-                    <AboutSkill skill="React Js" counter={70} />
+                    <AboutSkill skill="Javascript" counter={80} />
+                    <AboutSkill skill="React Js" counter={90} />
+                    <AboutSkill skill="Next.js" counter={80} />
+
                     <AboutSkill skill="Bootstrap" counter={75} />
-
-
-
 
 
                 </div>
